@@ -1,4 +1,4 @@
-# Ferramenta de busca com base no stackoverflow 🔎📚 
+# 🤓 Ferramenta de busca com base no stackoverflow 🔎📚 
 Ferramenta de busca utilizando como base de dados o stackoverflow
 
 ## 1. Objetivo
