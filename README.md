@@ -2,7 +2,7 @@
 Ferramenta de busca utilizando como base de dados o stackoverflow
 
 ## 1. Objetivo
-* Capturar as perguntas mais frequentes sobre Python no stackoverflow (Fonte: https://stackoverflow.com/questions/)
+* Capturar as perguntas mais frequentes sobre Python no [stackoverflow](https://stackoverflow.com/questions/)
 * Armazenar para cada pergunta: link, breve descrição da pergunta, quantidade de votos e visualizações, pergunta, resposta com melhor avaliação
 * Criar ferramenta de busca considerando como base arquitetura:
 ![](https://github.com/sielerod/search_stackoverflow/blob/master/Arquitetura.PNG)
