@@ -5,18 +5,25 @@ Ferramenta de busca utilizando como base de dados o stackoverflow
 * Capturar as perguntas mais frequentes sobre Python no [stackoverflow](https://stackoverflow.com/questions/)
 
 * Armazenar para cada pergunta: link, breve descrição da pergunta, quantidade de votos e visualizações, pergunta, resposta com melhor avaliação
-    * Tratamento de dados 
-    
-      ![](https://github.com/sielerod/search_stackoverflow/blob/master/logica_texto.PNG)
-      
-    * Ranqueamento
-    
-      ![](https://github.com/sielerod/search_stackoverflow/blob/master/Ranqueamento.PNG)
-
 
 * Criar ferramenta de busca considerando como base a arquitetura:
 
 ![](https://github.com/sielerod/search_stackoverflow/blob/master/Arquitetura.PNG)
+
+Para isto, será necessário:
+
+* Web scrapping para captura de dados do stackoverflow
+
+
+* Tratamento de dados 
+   
+   ![](https://github.com/sielerod/search_stackoverflow/blob/master/logica_texto.PNG)
+      
+* Ranqueamento
+    
+    ![](https://github.com/sielerod/search_stackoverflow/blob/master/Ranqueamento.PNG)
+
+
 
 ## 2. Inspiração 🤔💭
 Trabalho proposto pelo prof [Howard Roatti](https://github.com/hroatti) com base em suas [referências de estudo sobre NLP](https://github.com/hroatti/Python)
