@@ -10,15 +10,7 @@ Ferramenta de busca utilizando como base de dados o stackoverflow
 ## 2. Inspiração 🤔💭
 Trabalho proposto pelo prof [Howard Roatti](https://github.com/hroatti) com base em suas [referências de estudo sobre NLP](https://github.com/hroatti/Python)
 
-## 3. Passo a Passo
-###3.1 Web scraping
-
-
-###3.2 Modelagem de documentos
-
-
-
-## 4. Referências
+## 3. Referências
 Leitura de dados para web scrape:
  * [nveenverma](https://github.com/nveenverma) com base em seu tutorial: [scraping stack overflow](https://medium.com/@nveenverma/web-scraping-tutorial-project-scraping-stack-overflow-e28bb139fc3b)
 
@@ -30,3 +22,6 @@ Leitura de dados para web scrape:
 
 Vetorização
  * [Vetorização com scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
+
+Passo a passo na construção de uma engine de busca
+* [NLP Search Engine](https://www.kaggle.com/amitkumarjaiswal/nlp-search-engine)
