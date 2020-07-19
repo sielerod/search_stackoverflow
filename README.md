@@ -8,7 +8,7 @@ Ferramenta de busca utilizando como base de dados o stackoverflow
 
 * Criar ferramenta de busca considerando como base a arquitetura:
 
-![](https://github.com/sielerod/search_stackoverflow/blob/master/Arquitetura.PNG)
+![](https://github.com/sielerod/search_stackoverflow/blob/master/pictures/Arquitetura.PNG)
 
 Para isto, será necessário:
 
@@ -17,11 +17,11 @@ Para isto, será necessário:
 
 * Tratamento de dados 
    
-   ![](https://github.com/sielerod/search_stackoverflow/blob/master/logica_texto.PNG)
+   ![](https://github.com/sielerod/search_stackoverflow/blob/master/pictures/logica_texto.PNG)
       
 * Indexação
     
-    ![](https://github.com/sielerod/search_stackoverflow/blob/master/Ranqueamento.PNG)
+    ![](https://github.com/sielerod/search_stackoverflow/blob/master/pictures/Ranqueamento.PNG)
 
 * Criação de modelo
 
@@ -51,3 +51,6 @@ Passo a passo na construção de uma engine de busca
 * [NLP Search Engine](https://www.kaggle.com/amitkumarjaiswal/nlp-search-engine)
 * [Deangela Neves](https://github.com/deangelacgn) com base em seu tutorial: [How to Build a Search Engine](https://medium.com/@deangelaneves/how-to-build-a-search-engine-from-scratch-in-python-part-1-96eb240f9ecb) 
 * [Writing a simple Inverted Index in Python](https://medium.com/@fro_g/writing-a-simple-inverted-index-in-python-3c8bcb52169a)
+
+Front-end
+* [cyclone-pk](https://github.com/cyclone-pk/pythonandflutter) com base em seu tutorial:[How To Link Python Script (FILE) With Flutter](https://www.youtube.com/watch?v=LXB3gap6P8k&t=21s)
