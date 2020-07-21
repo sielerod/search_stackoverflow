@@ -35,9 +35,9 @@ Trabalho proposto pelo prof [Howard Roatti](https://github.com/hroatti) com base
 
 ## 3. Referências
 Leitura de dados para web scraping:
- * [nveenverma](https://github.com/nveenverma) com base em seu tutorial: [scraping stack overflow](https://medium.com/@nveenverma/web-scraping-tutorial-project-scraping-stack-overflow-e28bb139fc3b)
+ * [scraping stack overflow](https://medium.com/@nveenverma/web-scraping-tutorial-project-scraping-stack-overflow-e28bb139fc3b) by [nveenverma](https://github.com/nveenverma)
 
- * [iampawan](https://gist.github.com/iampawan) com base no passo a passo disponibilizado no youtube: [Scraping Stack Overflow Using Python Tutorial | Beautiful Soup](https://www.youtube.com/watch?v=EolFGrohtzw)
+ * [Scraping Stack Overflow Using Python Tutorial | Beautiful Soup](https://www.youtube.com/watch?v=EolFGrohtzw) by [iampawan](https://gist.github.com/iampawan)
 
  * [Web Scrape with Python & case studies](https://www.analyticsvidhya.com/blog/2017/07/web-scraping-in-python-using-scrapy/)
 
@@ -49,8 +49,8 @@ Vetorização e criação de índice
 
 Passo a passo na construção de uma engine de busca
 * [NLP Search Engine](https://www.kaggle.com/amitkumarjaiswal/nlp-search-engine)
-* [Deangela Neves](https://github.com/deangelacgn) com base em seu tutorial: [How to Build a Search Engine](https://medium.com/@deangelaneves/how-to-build-a-search-engine-from-scratch-in-python-part-1-96eb240f9ecb) 
+* [How to Build a Search Engine](https://medium.com/@deangelaneves/how-to-build-a-search-engine-from-scratch-in-python-part-1-96eb240f9ecb) by [Deangela Neves](https://github.com/deangelacgn) 
 * [Writing a simple Inverted Index in Python](https://medium.com/@fro_g/writing-a-simple-inverted-index-in-python-3c8bcb52169a)
 
 Front-end
-* [cyclone-pk](https://github.com/cyclone-pk/pythonandflutter) com base em seu tutorial:[How To Link Python Script (FILE) With Flutter](https://www.youtube.com/watch?v=LXB3gap6P8k&t=21s)
+* [How To Link Python Script (FILE) With Flutter](https://www.youtube.com/watch?v=LXB3gap6P8k&t=21s) by [cyclone-pk](https://github.com/cyclone-pk/pythonandflutter)
