@@ -53,4 +53,8 @@ Passo a passo na construção de uma engine de busca
 * [Writing a simple Inverted Index in Python](https://medium.com/@fro_g/writing-a-simple-inverted-index-in-python-3c8bcb52169a)
 
 Front-end
+* [Guia para criar flutter Search Bar]([https://blog.usejournal.com/change-app-bar-in-flutter-with-animation-cfffb3413e8a]) e [código no github](https://github.com/NishantDesai1306/flutter_search_bar_transition) by [NishantDesai1306](https://github.com/NishantDesai1306)
+
+* [flutter Search Bar](https://github.com/rodolfoggp/search_app_bar) by [rodolfoggp](https://github.com/rodolfoggp)
+
 * [How To Link Python Script (FILE) With Flutter](https://www.youtube.com/watch?v=LXB3gap6P8k&t=21s) by [cyclone-pk](https://github.com/cyclone-pk/pythonandflutter)
