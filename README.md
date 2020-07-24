@@ -36,29 +36,50 @@ Trabalho proposto pelo prof [Howard Roatti](https://github.com/hroatti) com base
 ## 3. Como executar a ferramenta de busca
 
 1) Necessário que bibliotecas / ferramentas abaixo tenham sido instaladas:
+
     Streamlit
+
     import numpy as np 
+
     import pandas as pd
+
     import requests 
+
     from requests.exceptions import HTTPError
+
     from bs4 import BeautifulSoup
+
     from time import sleep
+
     import json
+
     import re
+
     import string
+
     import unidecode
+
     import nltk
+
     nltk.download('punkt')
+
     nltk.download('stopwords')
+
     from nltk.stem import SnowballStemmer
+
     from nltk.tokenize import word_tokenize
+
     from nltk.tokenize import RegexpTokenizer
+
     from nltk.corpus import stopwords
+
     from operator import itemgetter
+
 
 2) Baixe os arquivos read_stackoverflow.py e search_stackoverflow.py e execute-os
 
 3) Execute o Streamlit
+
     ´streamlit run search_stackoverflow.py´
 
 ## 4. Referências
