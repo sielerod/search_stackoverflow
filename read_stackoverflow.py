@@ -38,8 +38,8 @@ def read_stackoverflow_overview(tags=[], tab='Frequent', pages=5):
     tags_link = '/tagged/'
     pre=''
     for t in tags:
-      tags_link += pre + t
-      pre = '+' 
+      tags_link += str(pre) + t
+      pre = '+or+' 
     link += tags_link
 
   link += '?tab='+tab
@@ -230,7 +230,9 @@ def print_search_result(docs_index, questions_df, operator='OR', num_results = 5
         results.at[idx,'summary'] = questions_df['summary'][doc_idx]
         idx += 1 
 
-    return results#results.style.format({'link': make_clickable2})
+    #results['link'] = results['link'].apply(make_clickable2)
+
+    return results #.style.format({'link': make_clickable2})
 
 def clean_tags (text):
     text = text.lower()
@@ -261,7 +263,7 @@ def refresh_stackoverflow(tags=['python','pandas'],tab='Frequent',pages=2):
 
 '''
 if __name__ == '__main__':
-    questions_df = refresh_stackoverflow(tags=['python','django'],tab='Frequent',pages=2)
+    questions_df = refresh_stackoverflow(tags=['tell','flutter'],tab='Frequent',pages=2)
     invertedList = json.load( open( "stackoverflow_InvertedIndex.json" ) )
     searchTerms = input("Digite os termos de busca: ") 
     operator = input("Deseja buscar documentos que contenha todos os termos da busca? (S/N)")
