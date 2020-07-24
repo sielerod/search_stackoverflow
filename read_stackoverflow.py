@@ -222,12 +222,16 @@ def print_search_result(docs_index, questions_df, operator='OR', num_results = 5
     print("Foram encontrados ", len(np.unique(responseSet)), " perguntas no stackoverflow compatíveis com a sua busca. Veja as respostas mais relevantes:\n")
 
     #Monta o Resultado
-    results = pd.DataFrame(columns=['title','link','summary'])
+    #results = pd.DataFrame(columns=['title','link','summary'])
+    results = pd.DataFrame(columns=['title','link','summary'],  index=range(len(responseSet)))
     idx=0
     for doc_idx in np.unique(responseSet):
-        results.at[idx,'title'] = questions_df['title'][doc_idx]
-        results.at[idx,'link'] = questions_df['link'][doc_idx]
-        results.at[idx,'summary'] = questions_df['summary'][doc_idx]
+        #results.at[idx,'title'] = questions_df['title'][doc_idx]
+        #results.at[idx,'link'] = questions_df['link'][doc_idx]
+        #results.at[idx,'summary'] = questions_df['summary'][doc_idx]
+        results['title'][idx] = questions_df['title'][doc_idx]
+        results['link'][idx] = questions_df['link'][doc_idx]
+        results['summary'][idx] = questions_df['summary'][doc_idx]
         idx += 1 
 
     #results['link'] = results['link'].apply(make_clickable2)
@@ -260,7 +264,6 @@ def refresh_stackoverflow(tags=['python','pandas'],tab='Frequent',pages=2):
     vocabulary, docs_stem_words = stackoverflow_vocabulary(questions_df)
     create_InvertedIndex(vocabulary, docs_stem_words)
     return questions_df
-
 '''
 if __name__ == '__main__':
     questions_df = refresh_stackoverflow(tags=['tell','flutter'],tab='Frequent',pages=2)

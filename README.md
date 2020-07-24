@@ -82,6 +82,9 @@ Trabalho proposto pelo prof [Howard Roatti](https://github.com/hroatti) com base
 
     ´streamlit run search_stackoverflow.py´
 
+4) Realize as pesquisas utilizando a língua inglesa
+
+
 ## 4. Referências
 Leitura de dados para web scraping:
  * [scraping stack overflow](https://medium.com/@nveenverma/web-scraping-tutorial-project-scraping-stack-overflow-e28bb139fc3b) by [nveenverma](https://github.com/nveenverma)

@@ -12,15 +12,15 @@ def make_clickable(link):
 if __name__ == '__main__':
 
     stack_tags = stack.read_stackoverflow_tags()
-    searchTerms = st.text_input('Digite o que deseja buscar no stackoverflow:')
+    searchTerms = st.text_input('Search something in stackoverflow:')
     tags = stack.clean_tags(searchTerms)
     tags = stack.remove_invalid_tags(tags, stack_tags)
-    st.write("Tags no stackoverflow",tags)
+    st.write("Stackoverflow Tags:",tags)
 
     operator = 'OR'
-    if st.checkbox('Buscar documentos com todos os termos'): operator = 'AND'
+    if st.checkbox('Search only documents with ALL terms'): operator = 'AND'
 
-    if st.button("Iniciar busca"):
+    if st.button("Start search"):
         try:
             questions_df = stack.refresh_stackoverflow(tags,tab='Frequent',pages=2)
         except:
