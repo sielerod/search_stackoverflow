@@ -33,7 +33,35 @@ Para isto, será necessário:
 ## 2. Inspiração 🤔💭
 Trabalho proposto pelo prof [Howard Roatti](https://github.com/hroatti) com base em suas [referências de estudo sobre NLP](https://github.com/hroatti/Python)
 
-## 3. Referências
+## 3. Como executar a ferramenta de busca
+
+1) Necessário que bibliotecas / ferramentas abaixo tenham sido instaladas:
+    Streamlit
+    import numpy as np 
+    import pandas as pd
+    import requests 
+    from requests.exceptions import HTTPError
+    from bs4 import BeautifulSoup
+    from time import sleep
+    import json
+    import re
+    import string
+    import unidecode
+    import nltk
+    nltk.download('punkt')
+    nltk.download('stopwords')
+    from nltk.stem import SnowballStemmer
+    from nltk.tokenize import word_tokenize
+    from nltk.tokenize import RegexpTokenizer
+    from nltk.corpus import stopwords
+    from operator import itemgetter
+
+2) Baixe os arquivos read_stackoverflow.py e search_stackoverflow.py e execute-os
+
+3) Execute o Streamlit
+    ´streamlit run search_stackoverflow.py´
+
+## 4. Referências
 Leitura de dados para web scraping:
  * [scraping stack overflow](https://medium.com/@nveenverma/web-scraping-tutorial-project-scraping-stack-overflow-e28bb139fc3b) by [nveenverma](https://github.com/nveenverma)
 
@@ -53,6 +81,8 @@ Passo a passo na construção de uma engine de busca
 * [Writing a simple Inverted Index in Python](https://medium.com/@fro_g/writing-a-simple-inverted-index-in-python-3c8bcb52169a)
 
 Front-end
+* [How to write Web apps using simple Python for Data Scientists?](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582)
+* [Streamlit 101: An in-depth introduction](https://towardsdatascience.com/streamlit-101-an-in-depth-introduction-fc8aad9492f2)
 * [Guia para criar flutter Search Bar]([https://blog.usejournal.com/change-app-bar-in-flutter-with-animation-cfffb3413e8a]) e [código no github](https://github.com/NishantDesai1306/flutter_search_bar_transition) by [NishantDesai1306](https://github.com/NishantDesai1306)
 
 * [flutter Search Bar](https://github.com/rodolfoggp/search_app_bar) by [rodolfoggp](https://github.com/rodolfoggp)
