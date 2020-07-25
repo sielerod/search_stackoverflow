@@ -76,7 +76,13 @@ Trabalho proposto pelo prof [Howard Roatti](https://github.com/hroatti) com base
     from operator import itemgetter
 
 
-2) Baixe os arquivos read_stackoverflow.py e search_stackoverflow.py e execute-os
+2) Baixe os arquivos abaixo e execute os .py
+
+    stackoverflow_tags.csv
+
+    read_stackoverflow.py
+    
+    search_stackoverflow.py
 
 3) Execute o Streamlit
 
