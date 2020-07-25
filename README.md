@@ -113,7 +113,7 @@ Passo a passo na construção de uma engine de busca
 Front-end
 * [How to write Web apps using simple Python for Data Scientists?](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582)
 * [Streamlit 101: An in-depth introduction](https://towardsdatascience.com/streamlit-101-an-in-depth-introduction-fc8aad9492f2)
-* [Guia para criar flutter Search Bar]([https://blog.usejournal.com/change-app-bar-in-flutter-with-animation-cfffb3413e8a]) e [código no github](https://github.com/NishantDesai1306/flutter_search_bar_transition) by [NishantDesai1306](https://github.com/NishantDesai1306)
+* [Guia para criar flutter Search Bar](https://blog.usejournal.com/change-app-bar-in-flutter-with-animation-cfffb3413e8a) e [código no github](https://github.com/NishantDesai1306/flutter_search_bar_transition) by [NishantDesai1306](https://github.com/NishantDesai1306)
 
 * [flutter Search Bar](https://github.com/rodolfoggp/search_app_bar) by [rodolfoggp](https://github.com/rodolfoggp)
 
