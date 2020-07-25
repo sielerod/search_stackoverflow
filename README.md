@@ -118,3 +118,17 @@ Front-end
 * [flutter Search Bar](https://github.com/rodolfoggp/search_app_bar) by [rodolfoggp](https://github.com/rodolfoggp)
 
 * [How To Link Python Script (FILE) With Flutter](https://www.youtube.com/watch?v=LXB3gap6P8k&t=21s) by [cyclone-pk](https://github.com/cyclone-pk/pythonandflutter)
+
+
+## 5. Melhorias
+
+* Scraping para atualização da lista de tags disponíveis no stackoverflow de [stackexchange](https://data.stackexchange.com/stackoverflow/query/381621) 
+
+* Armazenar resultado de pesquisas em arquivo local para recuperação, sem novo scraping caso já tenhamos as tags da pesquisa
+
+* Correção de erros em consultas com poucos resultados. 
+
+* Melhorar apresentação dos resultados
+        Apresentação do título com clicable link
+
+* Suportar pesquisas em português
